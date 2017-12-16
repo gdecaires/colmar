@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Menu bar begins here */
+
+nav {
+	height: 64px;
+}
+
+ul {
+	height: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+ li {
+	list-style: none;
+	display: inline;
+}
+
+#logo {
+	display: flex;
+	align-items: center;
+}
+
+/* Masthead begins here */
+
+#masthead {
+	display: flex;
+}
+
+#banner {
+	width: 60%;
+	max-width: 60%;
+}
+
+#mastTXT {
+	max-width: 40%;
+	width: 40%;
+}
+
+/* Main body content begins here */
+
+#main {
+	display: flex;
+}
+
+#leftClmn img, p {
+	max-width: 100%;
+	width: 100%;
+}
+
+#rightClmn {
+	min-width: 40%;
+}
+
+.containers {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Courses begins here */
+
+#startLearning {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: whitesmoke;
+}
+
+#startLearning h1 {
+	width: 100%;
+
+}
+
+.courses {
+	width: 30%;
+	max-width: 30%;
+}
+
+.courses img {
+	max-width: 100%;
+}
