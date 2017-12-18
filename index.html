@@ -7,8 +7,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600" rel="stylesheet">
 </head>
 <body>
-  <!-- Menu bar begins here -->
-  <nav>
+  <!-- Desktop Menu bar begins here -->
+  <nav id="desktop_nav">
     <div id="logo">
       <img src="./resources/images/ic-logo.svg" alt="logo">
       <span><strong>COLMAR</strong>ACADEMY</span>
@@ -19,6 +19,16 @@
   		<li>For companies</li>
       <li>Sign in</li>
     </ul>
+  </nav>
+
+  <!-- Mobile Menu bar begins here -->
+  <nav id="mobile_nav">
+    <ul>
+      <li><img src="./resources/images/ic-logo.svg" alt="logo"></li>
+      <li><img src="./resources/images/ic-on-campus.svg" alt=" oncampus"></li>
+      <li><img src="./resources/images/ic-online.svg" alt="online"></li>
+      <li><img src="./resources/images/ic-login.svg" alt="login"></li>
+   </ul>
   </nav>
 
   <!-- Masthead begins here -->
@@ -109,28 +119,30 @@
 
     <!-- Thesis area begins here -->
     <div id="thesis">
-      <div id="thesLeft">
-        <video controls src="./resources/videos/thesis.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
-        <h2>Reimagine urban</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta ante vitae erat congue, laoreet molestie dolor gravida. Nunc blandit efficitur purus et aliquet. Fusce sit amet elit fermentum magna gravida tempus sit amet at mi. Vestibulum nec sapien faucibus, scelerisque magna et, bibendum lectus.
-        </p>
-      </div>
-      <div id="thesRight">
-        <div class="thesContainer" id="thes1">
-          <img src="./resources/images/thesis-fisma.jpg">
-          <p><span class="thesTitle">Fisma: Design and Prototype</span><br>
-          Designer showcase of new prototype product</p>
+      <header id="thesHead"><h2>Thesis exhibit</h2></header>
+      <div id="thesContainer">
+        <div id="thesLeft">
+          <video controls src="./resources/videos/thesis.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          <h2>Reimagine urban</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta ante vitae erat congue, laoreet molestie dolor gravida. Nunc blandit efficitur purus et aliquet. Fusce sit amet elit fermentum magna gravida tempus sit amet at mi. Vestibulum nec sapien faucibus, scelerisque magna et, bibendum lectus.
+          </p>
         </div>
-        <div class="thesContainer" id="thes2">
-          <img src="./resources/images/thesis-now-and-then.jpg">
-          <p><span class="thesTitle">Now and then</span><br>
-          Research study about New York</p>
-        </div>  
+        <div id="thesRight">
+          <div class="thesContainer" id="thes1">
+            <img src="./resources/images/thesis-fisma.jpg">
+            <p><span class="thesTitle">Fisma: Design and Prototype</span><br>
+            Designer showcase of new prototype product</p>
+          </div>
+          <div class="thesContainer" id="thes2">
+            <img src="./resources/images/thesis-now-and-then.jpg">
+            <p><span class="thesTitle">Now and then</span><br>
+            Research study about New York</p>
+          </div>  
+        </div>
       </div>
-
     </div>
 
 <footer>  
